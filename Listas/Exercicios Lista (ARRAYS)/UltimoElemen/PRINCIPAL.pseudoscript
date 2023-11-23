@@ -1,0 +1,5 @@
+importar Delete como Delete
+
+int num = [1, 3, 5, 10, 15, 20, 25, 300]
+
+Delete.Delete(num)

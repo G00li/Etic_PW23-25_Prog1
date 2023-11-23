@@ -1,0 +1,11 @@
+
+int meses[12]
+
+int i = 1
+
+MesesAno = tamanho(meses)
+
+while(i <= MesesAno)
+    meses[i]
+    imprime(meses[i])
+    i++

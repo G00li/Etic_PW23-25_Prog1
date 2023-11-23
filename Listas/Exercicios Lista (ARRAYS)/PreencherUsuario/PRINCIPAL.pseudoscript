@@ -1,0 +1,14 @@
+
+importar preencher como preencher
+int num []; 
+int x
+
+
+entrada("Informe os valores do array: " x)
+imprime ("Para encerrar, digite 00123")
+
+preencher.preencher(num,x)
+
+while(x != 00123)
+    entrada("Informe os valores do array: " x)
+    preencher.preencher(num,x)

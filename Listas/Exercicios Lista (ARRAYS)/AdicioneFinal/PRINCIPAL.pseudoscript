@@ -1,0 +1,7 @@
+
+
+importar adicionar como maisum
+
+int num = [1, 21, 30, 48, 95]
+
+maisum.adicionar(num)

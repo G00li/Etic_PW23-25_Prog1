@@ -1,0 +1,13 @@
+
+    int i 
+    int z = 1
+    
+    for(i=0; i<10; i++)     #Preenchendo o array
+
+        num[i]= z 
+        z++
+
+
+    while (num[i]<=9)       #Imprimindo o array
+        imprime(num[i])
+        i++

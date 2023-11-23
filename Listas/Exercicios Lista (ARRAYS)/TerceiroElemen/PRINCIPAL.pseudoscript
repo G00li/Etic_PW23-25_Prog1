@@ -1,0 +1,6 @@
+
+importe tercElemento como posicao
+
+int num = [1, 10, 15, 230, 17]
+
+posicao.tercElemento(num)

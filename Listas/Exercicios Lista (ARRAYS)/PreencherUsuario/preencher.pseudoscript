@@ -1,0 +1,14 @@
+
+funcao preencher (num, x):   
+   
+    int i =0
+
+    while(num[i] <= tamanho.num())
+        while(x != '')    #Preenchendo o array
+            num[i]= x
+
+    tamanhoDaLista = tamanho(num)
+
+    while (num[i]<= tamanhoDaLista)       #Imprimindo o array
+        imprime(num[i])
+        i++

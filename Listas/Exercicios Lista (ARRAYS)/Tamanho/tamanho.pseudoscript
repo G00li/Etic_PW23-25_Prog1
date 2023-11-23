@@ -1,0 +1,10 @@
+
+funcao tamanho (num):
+    #tamanho(num)
+
+    int cont = 0
+
+    while(cont <= num[-1:])
+        cont++
+    
+    imprime (cont)

@@ -1,0 +1,25 @@
+
+funcao delete (num): 
+
+    int num2 = []
+    int i = 0
+    while(i != num[-1:])
+        if(i == num[-1:])
+            retornar num2 #devolve pro cliente um novo array sem a ultima posicao do array anterior
+        else
+            num[i] = num2 [i]
+        i++
+
+    imprime (num2)
+
+--------------------------------------------------- // -------------------------------------------------- 
+
+funcao delete2 (num): 
+    int num2 = []
+    int i
+
+    for(i=0; i<(num.tamanho()-2); i++)
+        num2[i] = num [i]
+
+    imprime(num2)
+            

@@ -1,0 +1,5 @@
+
+
+funcao alterar (num): 
+    num[2] = 158; 
+    imprime(num)

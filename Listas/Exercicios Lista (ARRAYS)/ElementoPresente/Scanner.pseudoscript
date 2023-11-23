@@ -1,0 +1,13 @@
+
+
+funcao scanner (num, x):
+    
+    int i = 0
+
+    while(i <= num[-1:])
+        if(num[i] == x)
+            imprime("Elemento Presente")
+        else
+            imprime("Elemento Não Presente")
+        
+        i++

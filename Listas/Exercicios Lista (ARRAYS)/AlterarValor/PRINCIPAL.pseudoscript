@@ -1,0 +1,6 @@
+
+importe alterar como mudar
+
+int num = [1, 17, 25, 40, 32, 59]
+
+mudar.alterar(num)

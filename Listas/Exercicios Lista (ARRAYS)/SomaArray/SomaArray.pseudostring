@@ -1,0 +1,10 @@
+
+funcao soma(num, num2)
+int num3[]
+
+for(int i = 0; i <= num.tamanho; i++)
+    num3[i] = num[i] + num2[i]
+
+for (int i = 0; i <= num3.tamanho; i++)
+    imprime(num3[i])
+
