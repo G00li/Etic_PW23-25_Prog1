@@ -1,0 +1,27 @@
+
+importar aluno como aluno
+
+funcao notaMedia(totalModulo): 
+
+    int somaNotas = 0
+    
+    materia = ('CodigoAluno' -> 'nota')
+    
+    for (int a = 0; a <= totalModulo; a++)
+
+        entrada("Informe o numero do aluno: ", CodigoAluno)
+
+        entrada("Informe o valor da nota (0 a 20): ", nota)
+        
+        while(nota < 0 || nota > 20)
+            imprime("Nota nao pode ser menor que zero ou maior que 20! ")
+            entrada("Informe o valor da nota (0 a 20): ", nota)
+
+
+    para cada nota em materia
+        somaNotas = somaNotas + nota
+        return somaNotas; 
+    
+    media = somaNotas/totalModulo
+
+    imprime (media)

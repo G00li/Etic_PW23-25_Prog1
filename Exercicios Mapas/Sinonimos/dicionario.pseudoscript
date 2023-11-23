@@ -1,0 +1,21 @@
+funcao dicionario (palavra): 
+    
+    dicionario = ('palavra' -> NULL)
+
+    molde = [exemplar, caso, tipo, espécie, espécime]
+    castigo = [castigo, punição, pena, penitência, correção, corretivo, condenação, sanção, escarmento]
+
+
+    #PARA MOLDE 
+   for(int i = 0; i <= molde.tamanho(); i++)
+        if(palavra == i)
+            while (int j = 0 <= molde.tamaho())
+                imprime(molde[j])
+                j++
+
+    #PARA CASTIGO
+       for(int i = 0; i <= castigo.tamanho(); i++)
+        if(palavra == i)
+            while (int j = 0 <= castigo.tamaho())
+                imprime(castigo[j])
+                j++

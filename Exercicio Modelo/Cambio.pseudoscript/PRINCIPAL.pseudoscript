@@ -1,0 +1,14 @@
+
+
+
+entrada("Informe o valor a ser convertido: ", valor)
+entrada("Informe qual moeda sera convertida: ", moeda)
+entrada("Informe a cotação da moeda: ", cotacao)
+
+
+modelo.modelo(valor, cotacao)
+
+imprime   ("Valor a ser trocado: {valor}
+            Cotação fornecida: {cotacao}
+            Valor recebido: {modelo.modelo}
+    ")

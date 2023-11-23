@@ -1,0 +1,9 @@
+importar modelo como modelo 
+
+
+imprime ("Bem vindo ao jogo")
+imprime ("Tente adivinhar o numero que o computador sorteou")
+
+modelo.aleatorio()
+modelo.palpite()
+modelo.comparador()

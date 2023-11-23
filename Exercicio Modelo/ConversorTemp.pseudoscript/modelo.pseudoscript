@@ -1,0 +1,24 @@
+
+
+modelo Temperatura:
+    construtor(celsius, fahrenheit)
+
+    Temperatura.celsius = celsius
+    Temperatura.fahrenheit = fahrenheit
+
+
+funcao conversor1 (celsius): 
+    double temp
+    celsius = Temperatura(celsius)
+
+    temp = (celsius*1.8) + 32
+
+    retorna "{temp} Fahrenheit"
+
+funcao conversor2 (fahrenheit): 
+    double temp 
+    fahrenheit = Temperatura (fahrenheit)
+
+    temp = (F - 32)/1.8
+
+    retorna "{temp} Celsius"

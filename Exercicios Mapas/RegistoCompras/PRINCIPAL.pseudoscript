@@ -1,0 +1,7 @@
+importar registo como registo
+
+int x = 0 
+
+entrada("Informe a quantidade de produtos: ", x)
+
+registo.registo(x)

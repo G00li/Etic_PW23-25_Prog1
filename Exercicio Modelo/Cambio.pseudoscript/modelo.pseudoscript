@@ -1,0 +1,12 @@
+
+
+modelo cambio: 
+    construtor(valor, cotacao)
+    cambio.valor = valor
+    cambio.cotacao = cotacao
+
+funcao modelo (valor, cotacao) 
+    resultado = valor*cotacao
+    retorna resultado
+
+    

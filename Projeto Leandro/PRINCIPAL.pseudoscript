@@ -1,0 +1,20 @@
+importar menuPrincipal
+importar registrar
+importar consultar
+
+
+
+
+imprime(" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+                     BEM VINDO AO SEU GESTOR FINANCEIRO
+                     
+            aprenda a controlar o seu dinheiro e fazê-lo 'render' todo o mes
+                    
+                    
+                    
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+menuPrincipal.menuPrincipal()

@@ -1,0 +1,18 @@
+#
+Calculadora de Médias: Criar um programa que calcule a média de notas fornecidas
+pelo utilizador para vários alunos. Nota: Deve questionar o utilizador de todas as
+inserções necessárias.
+#
+
+importar calculoMedia como calculoMedia
+
+int totalModulo = 0
+
+entrada ("Informe a quantidade de notas que vão ser inseridas: ", totalModulo)
+
+if (totalModulo == 0)   
+    imprime("QUANTIDADE DE NOTAS INSERIDAS NAO PODE SER 0!")
+    entrada ("Informe a quantidade de notas que vão ser inseridas: ", totalModulo)
+
+else(totalModulo >= 1)
+    calculoMedia.notaMedia(totalModulo)

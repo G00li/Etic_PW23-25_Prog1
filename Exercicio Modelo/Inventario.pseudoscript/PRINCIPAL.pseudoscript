@@ -1,0 +1,10 @@
+importar modelo como modelo
+
+
+modelo.menu()
+
+entrada("Informe a ação desejada", acao)
+
+modelo.opcao(acao)
+
+

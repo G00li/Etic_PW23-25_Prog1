@@ -1,0 +1,30 @@
+
+modelo Jogo: 
+
+    funcao aleatorio(): 
+        int x = aleatorio()
+        random = Jogo(x)
+        retorna random
+
+    funcao palpite():
+        int y = 0 
+        entrada("Informe seu palpite: ", y)
+        aposta = Jogo(y)
+        retorna aposta
+
+
+    funcao comparador(random, aposta):
+
+        while(aposta != random): 
+            imprime ("Palpite errado! Tente novamente!")
+            int aux = random - aposta
+            if (aux > 10 && aux < 50)
+                imprime ("Está proximo")
+            else if (aux > 50)
+                imprime ("Está um pouco longe")
+            else if (aux > 100)
+                imprime("Está super longe")
+            else (aux < )
+            jogo.palpite()
+        
+        imprime ("PALPITE CORRETO! PARABEEENSS!!!")

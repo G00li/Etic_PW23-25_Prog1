@@ -1,0 +1,39 @@
+
+modelo quiz: 
+    construtor(pergunta, resposta)
+
+    quiz.pergunta = pergunta
+    quiz.resposta = resposta
+
+
+funcao pergunta(qtdPerguntas):
+
+    aux = 0
+
+    while (aux != qtdPerguntas)
+       x = aleatorio()
+       y = aleatorio()
+   
+   
+        imprime("Qual seria a soma de {x} + {y}?")
+        resultado = x+y 
+
+        a = resultado
+        b = resultado + aleatorio()
+        c = resultado - aleatorio()
+        d = resultado + 1
+
+        imprime("Opção A) "+ a)
+        imprime("Opção B) "+ b)
+        imprime("Opção C) "+ c)
+        imprime("Opção D) "+ d)
+
+        entrada ("Informe a sua opção -> ", z)
+
+        if(z != resultado)
+            imprime ("opçao errada!")
+            imprime ("Resposta correta é: " + resultado)
+        else
+            imprime ("Resposta correta!")
+
+        aux++

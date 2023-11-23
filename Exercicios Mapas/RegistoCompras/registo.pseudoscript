@@ -1,0 +1,24 @@
+
+
+funcao registo (x): 
+    
+    compras = ('produto' -> 'preco' , 'quantidade' -> NULL)
+
+    int y = 0 
+  
+    int somaCompras = 0
+    int quantidade = 1 #se o cliente compra um produto, predefinimos com 1 unidade
+   
+    while(y <= x)
+        entrada ("Informe o produto: ", produto)
+        entrada ("Informe preço: ", preco)
+        entrada ("Informe a quantidade de unidades: " , quantidade)
+        int valor = preço * quantidade
+
+
+        somaCompras = somaCompras + valor
+
+    y++
+
+
+    imprime ("Total: {somaCompras}")

@@ -1,0 +1,15 @@
+
+
+funcao adicionar (x):
+
+    int j = 0
+
+    while(j <= x)
+        entrada ("Informe o nome do projeto: ", projeto.nome)
+        entrada ("Informe o id do projeto: ", projeto.id)
+        entrada ("Descricao do projeto: ", descricao)
+
+        listaProjeto.add(projeto)
+    j++
+
+    return listaProjeto[]

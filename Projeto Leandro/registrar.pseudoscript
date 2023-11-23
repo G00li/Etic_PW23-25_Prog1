@@ -1,0 +1,53 @@
+
+modelo registro:
+    construtor (categoria, valor, novoValor)
+        registro.categoria = categoria
+        registro.valor = valor
+        registro.novoValor = novoValor
+
+
+
+    funcao todosRegistros(): #Funcao para apresentar todas as categorias existentes
+        imprime ("Categoria -> Valor (€)")
+        para valor, categoria em registro 
+            imprime("{categoria} -> {valor}")
+
+ 
+ 
+    funcao registrar(balanco):
+
+        imprime("Categoria(s) existente(s)")
+
+        todosRegistros():
+
+        entrada("A categoria que deseja inserir um novo movimento, existe na lista? (s/n)", aux)
+
+        if(aux == 's')
+            entrada("Informe a categoria que deseja registrar o valor", categoria1)
+            
+            para cada categoria, valor em registro 
+                if(categoria == categoria1): #Verifica se a categoria que o utilizador digitou se encontra na lista de categorias já existentes
+                    entrada("Informe o valor que deseja registrar", valorNovo)
+                    valor = valor + (valorNovo) #valor geral da categoria 
+
+                    registro.novoValor = valorNovo #Guarda a movimentação do valor inserido pelo usuario na lista 
+
+        else if(aux == 'n')
+            entrada("Informe o nome da categoria que deseja inserir", novaCategoria)
+            
+            para cada categoria, valor em registro
+            
+                if(novaCategoria == categoria) #Se a categoria já existe na lista de categorias
+                    imprime("Categoria já existe!")
+                    return 
+
+                else #Adicionando uma categoria nova com um valor já associado
+                    entrada("Informe o valor que deseja associar a categoria", novoValor)
+                    registro.categoria = novaCategoria 
+                    registro.valor = novoValor
+
+
+
+        else
+            imprime("Opção Inválida!")
+            crash ("")

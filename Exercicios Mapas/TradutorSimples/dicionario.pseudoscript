@@ -1,0 +1,23 @@
+
+
+funcao dicionario(idioma):
+
+    idioma = ('palavra' -> NULL)
+
+    if (idioma == 'ingles')
+        entrada("Informe a palavra: ", palavra)
+
+        if (palavra == 'car')
+            imprime ("Carro")
+        
+        else if(palavra == 'chair')
+            imprime ("cadeira")
+       
+        else if (palavra == 'computer')
+            imprime ("Computador")
+       
+        else if (palavra == 'bread')
+            imprime("Pao")
+
+    else
+        imprime("Idioma nao reconhecido")

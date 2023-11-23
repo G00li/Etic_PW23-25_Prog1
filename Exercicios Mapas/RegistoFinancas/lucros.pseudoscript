@@ -1,0 +1,15 @@
+imoportar saldo como saldo
+
+
+funcao lucro (saldo): 
+
+    Double lucro = 0.00
+
+    entrada("Informe o lucro obtido: ", lucro)
+
+    saldo = saldo + lucro
+
+    imprimir ("Seu saldo novo é: {saldo}€")
+
+    return saldo
+    

@@ -1,0 +1,32 @@
+
+
+importar adicionarStock como adicionar
+importar removerStock como remover
+importar stock como stock
+
+int x = 0
+
+imprime ("Escolha uma das opçoes: 
+        1 - Adicionar ao stock
+        2 - Remover do Stock
+        3 - Consultar Stock
+        4 - Sair
+        ") 
+
+
+entrada ("Adicionar ao Stock", x = x + 1)
+entrada ("Remover do Stock", x = x + 2)
+entrada ("Consultar ao Stock", x = x + 3)
+entrada ("Sair", x = x + 4)
+
+if (x == 1)
+    adicionar.adicionar()
+
+else if(x == 2)
+    removerStock.remover()
+
+else if(x == 3)
+    stock.Consultar()
+
+else if(x == 4)
+    return0

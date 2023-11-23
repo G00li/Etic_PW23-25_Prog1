@@ -1,0 +1,30 @@
+
+funcao ranking (x):
+
+    int aux = 0
+    ranking ('nome' -> 'pontuacao')
+
+    while (aux < = x) 
+        entrada ("Informe o nome do jogador: ", nome)
+        entrada ("Informe a pontuacao do jogador: ", pontuacao)
+
+    int primeiro = 0
+    int segundo = 0 
+    int terceiro = 0
+
+    for(int i = 0; i <= tamanho.ranking; i++)
+        if(ranking.pontuacao[i] > ranking.pontuacao[i+1])
+            primeiro = ranking.pontuacao[i]
+        
+        else if(ranking.pontuacao[i]< primeiro && ranking.pontuacao[i] > ranking.pontuacao[i+1])
+            segundo = ranking.pontuacao[i]
+
+        else if(ranking.pontuacao[i] < primeiro && ranking.pontuacao[i] < segundo && ranking.posicao[i] > ranking.pontuacao[i+1])
+            terceiro = ranking.pontuacao[i]
+
+
+    #Como imprimir a pontuacao com o nome associado ? 
+
+    imprime("Primeiro Lugar:{ranking.nome} com {primeiro} pontos")
+    imprime("Segundo Lugar:{ranking.nome} com {segundo} pontos")
+    imprime("Terceiro Lugar:{ranking.nome} com {terceiro} pontos")

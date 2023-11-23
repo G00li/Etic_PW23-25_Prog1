@@ -1,0 +1,31 @@
+
+
+Modelo IMC: 
+    construtor(peso, altura)
+    IMC.peso = peso
+    IMC.altura = altura
+
+
+funcao calculo (peso, altura):
+    resultado = 0
+
+    dobroAltura = altura * altura
+    resultado = peso / dobroAltura
+
+    imprime ("O seu IMC eh {resultado}")
+
+    retorna resultado
+
+funcao faixa(resultado): 
+    if(resultado <= 18.5)
+        imprime("Abaixo do peso")
+    else if(resultado > 18.5 && resultado <= 24.9)
+        imprime("Normal")
+    else if(resultado > 24.9 && resultado <= 29.9)
+        imprime("Sobrepeso")
+    else if(resultado > 30 && resultado <= 34.9)
+        imprime("Obesidade")
+    else if(resultado > 34.9 && resultado <= 39.9)
+        imprime("Obesidade Morbida I")
+    else if(resultado > 40.0)
+        imprime("Obesidade Morbida II")

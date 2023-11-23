@@ -1,0 +1,19 @@
+
+
+funcao contagem(frase):
+    letra [a..z]
+    int numLetras = 0
+
+    contagem = ( )
+   
+    cada letra em frase
+        if (letra != contagem.chaves()):
+            contagem[letra] = 1
+
+        else 
+            contagem[letra] += 1
+
+        return contagem
+    
+    for(int i = 0; i <= numLetras.tamanho; i++ ) #Imprime a quantidade de letras repetidas na frase escrita pelo usuario
+        imprime(numLetras[i])

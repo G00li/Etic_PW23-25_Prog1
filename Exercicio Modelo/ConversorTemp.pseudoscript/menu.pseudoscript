@@ -1,0 +1,18 @@
+funcao menu():
+    imprime("Bem vindo ao conversor de temperatura")
+
+    int opcao = 0
+
+    entrada (""Informe a conversao desejada
+            1. Celsius para Fahrenheit
+            2. Fahrenheit para Celsius"", opcao)
+
+    if (opcao > 0 || opcao < 3)
+        retorna opcao
+    else
+        while (opcao < 1 || opcao > 2)
+            entrada (""Informe a conversao desejada
+                        1. Celsius para Fahrenheit
+                        2. Fahrenheit para Celsius"", opcao)
+
+        retorna opcao

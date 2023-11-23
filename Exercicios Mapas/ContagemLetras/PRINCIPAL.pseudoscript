@@ -1,0 +1,7 @@
+importar contagem como letra
+
+String frase[]
+
+entrada("Informe uma frase: ", frase)
+
+letra.contagem(frase)

@@ -1,0 +1,39 @@
+
+importar menu como operadores
+improtar modelo como modelo
+
+int x = 0
+char z
+int num = 0
+int num2 = 0
+
+
+operadores.menu()
+
+entrada("Informe a operaçao desejada: ", x)
+
+entrada("Primeiro numero: ", num)
+entrada("Segundo numero: ", num2)
+
+
+
+while (x != 0)
+    if (x==1):
+        soma = modelo(num, num2)
+        imprime(modelo.soma(num,num2))
+    else if(x==2):
+        subtracao = modelo(num, num2)
+        imprime(modelo.subtracao(num,num2))
+    else if(x==3):
+        multiplicacao = modelo(num, num2)
+        imprime(modelo.multiplicacao(num,num2))
+    else if (x==4)
+        divisao = modelo(num, num2)
+        imprime(modelo.divisao(num,num2))
+
+
+    entrada("Deseja fazer outra operaçao (s/n)", z)
+    if(z==1)
+         entrada("Informe a operaçao desejada: ", x)
+    else
+        x = 0

@@ -1,0 +1,15 @@
+importar stock como stock
+
+funcao remover(): 
+
+    produto = ('nomeProduto' -> 'quantidade')
+
+    entrada = ("Informe o nome do produto: ", nomeProduto)
+    entrada = ("Informe a quantidade do produto que será removido: ", quantidade)
+
+    # stock.remove(produto)
+
+    stock = stock - produto.quantidade
+
+    print("Produto {nomeProduto} removido do stock: ")
+    return stock

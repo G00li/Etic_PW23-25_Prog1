@@ -1,0 +1,6 @@
+importar diocionario como dicionario 
+
+String idioma[]
+entrada("Informe um idioma: ", idioma)
+
+dicionario.dicionario(idioma)

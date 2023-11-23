@@ -1,0 +1,37 @@
+importar registrar
+
+#Utilizar o modelo registro para consultar todos os dados 
+
+
+
+funcao cosultar():
+    entrada("Selecione a opção: 
+            1 -> Consultar Global
+            2 -> Consultar Discriminado", consultarOpcao)
+
+    while(consultarOpcao < 1 || consultarOpcao > 2)
+        imprime("Opção Errada!!")
+        entrada("Selecione a opção: 
+            1 -> Consultar Global
+            2 -> Consultar Discriminado", consultarOpcao)
+
+    if(consultarOpcao == 1): # CONSULTA GLOBAL --> Imprime todas as categorias existentes com os seus valores associados 
+        
+        para cada categoria, valor em registro
+            imprime("[{categoria}] - {valor}€")
+
+    else if(consultarOpcao == 2): # CONSULTA DISCRIMINADA --> Pede para o usuário a categoria desejada e imprime todos os movimentos da categoria 
+        imprime(todosRegistros)
+
+        entrada("Informe a categoria que deseja inspecionar ao detalhe", categoriaDiscriminada)
+
+        para cada categoria, novoValor em registro
+
+            while(categoriaDiscriminada != categoria): #Caso o utilizador insira uma categoria que não consta na lista de categorias 
+                imprime("Categoria não existe!")
+                entrada("Informe a categoria que deseja inspecionar ao detalhe", categoriaDiscriminada)
+
+            #if(categoriaDiscriminada == categoria)
+            imprime("{novoValor}")
+
+            

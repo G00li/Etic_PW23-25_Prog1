@@ -1,0 +1,17 @@
+importar stock como stock
+
+funcao adicionar(): 
+
+    produto = ('nomeProduto' -> 'quantidade')
+
+    
+
+    entrada = ("Informe o nome do produto: ", nomeProduto)
+    entrada = ("Informe a quantidade do produto que vai ser adicionado: ", quantidade)
+
+    # stock.add(produto)
+
+    stock = stock + produto.quantidade
+
+    print("Produto {produto.nomeProduto} adicionado ao stock: ")
+    return stock

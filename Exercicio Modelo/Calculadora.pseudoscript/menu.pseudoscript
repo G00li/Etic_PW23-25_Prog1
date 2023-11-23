@@ -1,0 +1,9 @@
+funcao opcoes():
+
+    imprime("Bem vindo a calculadora!")
+    imprime(""Escolha a sua opçao:
+            1. soma
+            2. subtracao
+            3. multiplicacao
+            4. divisao"")
+    

@@ -1,0 +1,45 @@
+importar adicionar como adicioanr
+importar deletar como deletar 
+importar consultar como consultar
+
+
+int opcao = 0
+
+    
+listaProjeto []
+
+projeto = ('nome' -> 'id', 'descricao' -> 'listaDeTarefas')
+
+
+while(opcao <= 0 || opcao > 3)
+imprime ("Selecione a opção: ")
+imprime ("1. Adicionar projeto")
+imprime ("2. Deletar projeto")
+imprime ("3. Lista de Tarefas")
+imprime ("4. Consultar projetos existentes")
+entrada(opcao)
+
+
+
+if (opcao == 1)
+    int x = 0
+    entrada("Informe quantos projetos serao efetuados:  ", x)
+    if (x > 0)
+        adicionar.adicionar(x)
+    else
+        imprime ("ERRO")
+
+else if(opcao == 2)
+    int id = 0 
+    entrada("Informe qual o id do projeto que sera excluido: ", id)
+    deletar.deletar(id)
+
+
+else if(opcao == 3)
+    String tarefa[]
+
+    entrada("Adicione a tarefa: ", tarefa[])
+    projeto.listaDeTarefas(tarefa[])
+    
+else if (opcao == 4)
+    consultar.consultar()

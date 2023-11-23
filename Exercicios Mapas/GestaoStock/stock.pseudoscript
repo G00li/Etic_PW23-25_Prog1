@@ -1,0 +1,7 @@
+
+
+funcao stock (): 
+    stock = ('produto' -> 'quantidade')
+
+    para cada produto em stock.produto
+        imprime ("Produto {produto}: {quantidade} unidade(s)")

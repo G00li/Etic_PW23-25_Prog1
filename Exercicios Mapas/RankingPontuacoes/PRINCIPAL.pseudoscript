@@ -1,0 +1,15 @@
+importar ranking como ranking
+
+
+int x = 0 
+
+
+entrada("Informe a quantidade de jogadores: ", x)
+
+while(x <= 0)
+    imprime("Numero de jogadores nao pode ser negativo nem igual a zero")
+    entrada("Informe um novo numero de jogadores", x)
+
+
+else
+    ranking.ranking(x)

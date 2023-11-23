@@ -1,0 +1,18 @@
+
+
+funcao despesa (saldo): 
+
+    Double despesa = 0.00
+
+    entrada("Informe a despesa: ", despesa)
+    imprimir("Despesa inserida: {despesa}")
+
+    if(despesa>saldo)
+        imprimir("ERRO! SALDO INVALIDO!")
+
+    else 
+        saldo = saldo - despesa
+
+    imprimir("Seu saldo atual é: {saldo}€")
+
+    return saldo

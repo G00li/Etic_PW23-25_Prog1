@@ -1,0 +1,5 @@
+importar modelo como modelo
+
+entrada("Informe a quantidade de perguntas que deseja participar: ", qtdPerguntas)
+
+modelo.pergunta(qtdPerguntas)

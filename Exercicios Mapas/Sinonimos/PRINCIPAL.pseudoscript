@@ -1,0 +1,8 @@
+importar dicionario como dicionario 
+
+
+String palavra[]
+entrada("Informe a palavra", palavra)
+
+
+dicionario.dicionario(palavra)

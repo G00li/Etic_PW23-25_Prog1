@@ -1,0 +1,26 @@
+ 
+
+ modelo calculadora:
+    construtor(num,num2)
+        calculadora.num = num
+        calculadora.num2 = num2
+
+    int resultado = 0
+
+    funcao soma(num,num2):
+        resultado = num + num2
+        retorna "O seu resultado eh: {resultado}"
+
+
+    funcao subtracao(num,num2):
+        resultado = num - num2
+        retorna "O seu resultado eh: {resultado}"
+
+    funcao multiplicacao(num,num2):
+        resultado = num*num2
+        retorna "O seu resultado eh: {resultado}"
+    
+
+    funcao divisao(num,num2):
+        resultado = num / num2
+        retorna "O seu resultado eh: {resultado}"

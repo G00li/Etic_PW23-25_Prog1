@@ -1,0 +1,13 @@
+importar listaContactos como listaContactos
+
+funcao criarContacto():
+    contacto = ('numero' -> 'nome')
+   
+   
+    entrada("Contacto", numero)
+    entrada("Nome: ", nome)
+
+
+    listaContactos.add = contacto
+
+    imprime("Contacto adicionado: {contacto.nome}")

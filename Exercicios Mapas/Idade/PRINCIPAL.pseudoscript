@@ -1,0 +1,10 @@
+importar anoAtual como anoAtual
+
+int anoAtual = 0 
+int qtdPessoas = 0
+
+entrada("Informe o ano atual: ", anoAtual)
+entrada ("Informe a quantidade de pessoas: ", qtdPessoas)
+
+
+calculo.calculo(anoAtual, qtdPessoas)

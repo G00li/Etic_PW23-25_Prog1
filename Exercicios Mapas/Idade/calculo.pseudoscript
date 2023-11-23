@@ -1,0 +1,16 @@
+
+
+funcao calculo(anoAtual, qtdPessoas):
+
+    pessoa = ('nome' -> 'anoNascimento')
+
+    int x = 0
+
+    while(x <= qtdPessoas)
+        entrada("Informe o seu nome: ", nome)
+        entrada("Informe o seu ano de nascimento: ", anoNascimento)
+
+        int idade = anoAtual - anoNascimento
+        imprime("A sua idade é: {idade})
+
+        x++

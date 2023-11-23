@@ -1,0 +1,15 @@
+importar modelo como modelo
+importar menu como menu 
+
+menu.menu()
+
+
+    if(opcao == 1):
+        double celsius
+        entrada ("Informe a temperatura: ", celsius)
+        modelo.conversor1(celsius)
+
+    else if(opcao == 2):
+        double fahrenheit
+        entrada("Informe a temperatura", fahrenheit)
+        modelo.conversor2(fahrenheit)

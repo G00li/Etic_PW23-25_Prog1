@@ -1,0 +1,8 @@
+importar adicionar como adicionar 
+
+
+funcao consultar (listaProjeto[])
+
+    
+    for(int i = 0; i <= listaProjeto.tamanho(); i++)
+        imprime(listaProjeto[i])

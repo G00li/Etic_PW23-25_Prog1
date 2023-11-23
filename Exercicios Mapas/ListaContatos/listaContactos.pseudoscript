@@ -1,0 +1,7 @@
+
+funcao listaContactos(contacto):
+   
+    listaContactos[] = contactos
+   
+    for (int i = 0; i <= tamanho.listaContactos; i++)
+        imprime(listaContactos[i])

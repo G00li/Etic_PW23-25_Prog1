@@ -1,0 +1,7 @@
+importar modelo como modelo
+
+entrada("Informe o seu peso: ", peso)
+entrada("Informe a sua altura: ", altura)
+
+modelo.calculo(peso,altura)
+modelo.faixa()

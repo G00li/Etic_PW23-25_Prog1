@@ -1,0 +1,39 @@
+importar despesas como despesas 
+importar lucro como lucro
+importar saldo como saldo
+
+
+    receita = ('receita' -> 'saldo')
+
+    Double saldo = 0 
+
+    entrada ("Informe o saldo inicial: ", saldo)
+
+    int x = 0 
+
+    imprimir("Selecione a operação: ")
+    imprimir ("1. Saldo")
+    imprimir ("2. Registo de Lucro")
+    imprimir ("3. Registo de Despesa")
+    entrada(x)
+
+
+    while(x <= 0 || x > 3 )
+        imprimir ("Opção invalida!")
+       
+        imprimir("Selecione a operação: ")
+        imprimir ("1. Saldo")
+        imprimir ("2. Registo de Lucro")
+        imprimir ("3. Registo de Despesa")
+        entrada(x)
+
+
+    if (x == 1)
+        saldo.saldo(saldo)
+    
+    else if(x==2)
+        lucro.lucro(saldo)
+
+    else if(x==3)
+        despesas.despesas(saldo)
+

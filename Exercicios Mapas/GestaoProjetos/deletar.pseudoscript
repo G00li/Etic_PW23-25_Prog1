@@ -1,0 +1,17 @@
+importar adicionar como adicionar
+importar consultar como consultar
+
+funcao deletar(projeto.id, id, listaProjeto[]):
+        
+        listaProjetoAtualizada[]
+
+
+        for (int i= 0; i <= projeto.id.tamanho(); i++)
+            if(id != projeto.id) #quando o id do projeto for diferente do que ele quiser excluir, ele adiciona em um novo array
+                listaProjetoAtualizada = listaProjeto[i]
+
+            else  #quando id == projeto.id
+                i++
+        
+
+        return listaProjetoAtualizada[]

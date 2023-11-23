@@ -1,0 +1,63 @@
+
+
+modelo stock: 
+    construtor()
+
+funcao menu()
+    imprime("
+        1. Adicionar 
+        2. Remover
+        3. Listar  
+    ")
+
+funcao stock ()
+    stock = (produto, quantidade)
+
+    entrada ("Informe a quantidade de referencia em loja: ", referencia)
+    aux=0
+    while (aux != referencia)
+        entrada("Informe o nome do produto: ", stock.produto)
+        entrada("Informe a quantidade disponivel deste produto: ", stock.quantidade)
+
+        aux++
+
+
+    retorna stock
+
+
+
+funcao opcao (stock, acao)
+    while (acao < 1 || acao > 3)
+        imprime ("Opção inválida! ")
+
+        if (acao == 1): 
+            imprime("Deseja adicionar: 
+                    1. Uma novo produto
+                    2. Aumentar a quantidade de um produto já existente  
+            ")
+        entrada("Escolha a sua opção: ", opcao)
+
+        if (opcao < 1 || opcao > 2 )
+            imprime ("Opção errada ")
+
+        else if (opcao == 2)
+
+        #Percorrer lista para achar produto 
+        #Adicionar a quantidade desejada ao produto 
+            entrada ("Informe a quantidade de produtos que serao adicionados: ", adicional)
+
+        stock.q += adicional
+
+        imprime("{Adicional} Produtos adicionados ao seu Stock")
+
+        retorna stock
+    
+    else if (acao == 2)
+        entrada ("Informe a quantidade de produtos que serão removidos: ", removidos)
+        stock -= stock
+
+        imprime("{removidos} Produtos removidos do Stock")
+
+        retorna stock
+
+    

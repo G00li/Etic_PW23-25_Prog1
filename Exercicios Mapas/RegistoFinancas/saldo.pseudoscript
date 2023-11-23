@@ -1,0 +1,13 @@
+importar despesa como despesa
+importar lucro como lucro
+
+
+
+funcao saldo (despesa, lucro, saldo): 
+
+
+    saldo = lucro - despesa
+
+    imprimir("Seu saldo inicial é de: {saldo}€)
+
+    retorna saldo
